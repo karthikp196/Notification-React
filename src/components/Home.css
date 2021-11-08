@@ -1,0 +1,36 @@
+
+
+.home
+{
+    width: 800px;
+    height: 50vh;
+    margin: 50px auto;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+
+}
+
+.Home_actions
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home_actions > .Action_button {
+    color: black !important;
+}
+
+.Notification_inner
+{
+
+}
+.css-sfbrjq-MuiSnackbar-root {
+   
+    position: relative !important;
+    width: max-content !important;
+    margin: 5px !important;
+    top: 250 !important;
+    left: 521px !important;
+    top: 200px !important;
+}

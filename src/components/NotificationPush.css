@@ -1,0 +1,16 @@
+.Notification
+{
+    width: 800px;
+    margin: 50px auto;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Notification_wrapper
+{
+    text-align: center;
+    margin: 10px auto;
+}
