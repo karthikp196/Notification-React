@@ -17,6 +17,7 @@ function Home() {
         setNotifications(notification)
         }, []);
 
+    // Function to Hide Notifications
     const action_button = (status) => {
         const arr = notifications.filter((item) => item.variant !== status);
         setNotifications(arr);
@@ -32,7 +33,7 @@ function Home() {
                 <Button className="Action_button" onClick={() => action_button("others")}  variant="outlined">Hide Unstyled</Button>
             </div>
            
-
+            {/* passing Props to Notification alert Component */}
             { notifications.map((notify) => ( 
                 <div className="Notification_inner">
                     <NotificationAlert key={notify} text={notify.text} serverity={notify.variant} duration={notify.duration}/>

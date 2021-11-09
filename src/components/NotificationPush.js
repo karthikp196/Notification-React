@@ -22,7 +22,7 @@ function NotificationPush() {
     const [duration, setDuration] = useState('');
     const dispatch = useDispatch();
 
-
+    // Updating Store with Notification information
     const create = () => {
         dispatch(selectNotification({
            text,
